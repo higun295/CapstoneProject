@@ -9,8 +9,8 @@ POSE_MODEL = os.path.join(ALPHAPOSE_DIR, "pretrained_models", "fast_res50_256x19
 POSE_BATCH = "32"
 
 # 입력 및 출력 루트 경로
-input_root = r"D:\Data\Camera"
-output_root = r"D:\Data\outputs"
+input_root = r"D:\Data\DaHyeon\Camera"
+output_root = r"D:\Data\DaHyeon\outputs"
 
 # Subject 폴더 순회
 for subject in os.listdir(input_root):

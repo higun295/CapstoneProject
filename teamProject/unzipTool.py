@@ -2,10 +2,10 @@ import zipfile
 import os
 
 # 압축 파일이 들어 있는 루트 폴더
-camera_root = "D:/Data/Camera"
+camera_root = "D:/Data/DaHyeon/Zipped"
 
 # 압축 해제 결과를 저장할 루트 폴더
-extract_root = "D:/Data/Unzipped"
+extract_root = "D:/Data/DaHyeon/Camera"
 
 # 모든 Subject 폴더 순회
 for subject_folder in os.listdir(camera_root):
